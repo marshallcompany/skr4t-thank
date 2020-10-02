@@ -1,0 +1,170 @@
+/* = MEDIA = */
+@media screen and (max-width:1400px) {
+  .room{
+    padding-top: 160px;
+    &__ticket{
+      height: 315px;
+    }
+    .button{
+      max-width: 600px;
+    }
+  }
+  .steps-item{
+    padding: 25px 5px 25px 5px;
+    justify-content: center;
+    &__icon{
+      margin-right: 10px;
+    }
+    &__text{
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width:1200px){
+  .text {
+    font-size: 30px;
+    max-width: 865px;
+  }
+  .steps-item{
+    width: 50%;
+    &__text{
+      font-size: 16px;
+      max-width: 200px;
+      width: 100%;
+    }
+    &:nth-child(1){
+        border-bottom: 1px solid #ffffff;
+        border-right: 1px solid #ffffff;
+    }
+    &:nth-child(2){
+      border: none;
+      border-bottom: 1px solid #ffffff;
+    }
+    &:nth-child(3) {
+      border: none;
+      border-right: 1px solid #ffffff;
+    }
+  }
+}
+@media screen and (max-width:992px){
+  .header-navigation {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .text {
+    max-width: 100%;
+    br {
+      display: none;
+    }
+  }
+  .text__title {
+    display: block;
+    width: inherit;
+  }
+}
+@media screen and (max-width:768px){
+  .header-navigation {
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  .navigation-logo{
+    font-size: 10px;
+    span{
+      font-size: 18px;
+    }
+  }
+  .date__month{
+    font-size: 18px;
+  }
+  .text {
+    font-size: 24px;
+  }
+  .room{
+    padding-top: 80px;
+    &__ticket{
+      height: 200px;
+    }
+    .button{
+      width: 90%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      &__label{
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media screen and (max-width:667px){
+  .after-description__item{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:640px){}
+@media screen and (max-width:568px){
+  .text {
+    font-size: 18px;
+    text-align: center;
+  }
+  .thank{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .room{
+    &__save{
+      margin-bottom: 70px;
+      text-align: center;
+    }
+    &__ticket{
+      height: 145px;
+      top:-50px;
+    }
+    .button{
+      &__icon{
+        height:25px;
+      }
+    }
+    &__notification{
+      font-size: 16px;
+    }
+  }
+  .text__title {
+    font-size: 12px;
+  }
+  .steps-item{
+    width: 100%;
+    border-bottom: 1px solid #ffffff!important;
+    &:last-child{
+      border: none!important;
+    }
+    &:nth-child(1){
+      border: none;
+    }
+    &:nth-child(2){
+      border: none;
+    }
+    &:nth-child(3) {
+      border: none;
+    }
+  }
+}
+@media screen and (max-width:480px){
+}
+@media screen and (max-width:414px){
+  .room{
+    &__notification{
+      br {
+        display: none;
+      }
+    }
+    .button{
+      &__label{
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media screen and (max-width:375px){}
+@media screen and (max-width:360px){}
+@media screen and (max-width:320px){}
+/* = MEDIA END = */
